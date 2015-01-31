@@ -70,7 +70,8 @@ var blockedSongs = [
 "willyrex",
 "vegetta",
 "LA CANCIÓN DE WILLYREX (The Güilyreh Song)",
-"rap del dinero"
+"rap del dinero",
+"rata"
 
 
 ];
