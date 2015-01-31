@@ -69,7 +69,8 @@ var blockedSongs = [
 "ratix",
 "willyrex",
 "vegetta",
-"LA CANCIÓN DE WILLYREX (The Güilyreh Song)"
+"LA CANCIÓN DE WILLYREX (The Güilyreh Song)",
+"rap del dinero"
 
 
 ];
@@ -77,7 +78,8 @@ var blockedSongs = [
 // Keywords of blocked artist.
 var blockedArtists = [
 "Justin Bieber",
-"Eltrollino"
+"Eltrollino",
+"Psy"
 ];
 
 // Filter Keywords
