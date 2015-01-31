@@ -14,7 +14,7 @@ toSave = {};
 toSave.settings = Funbot.settings;
 toSave.moderators = Funbot.moderators;
 
-Funbot.misc.version = "1.1.2";
+Funbot.misc.version = "1.1.3";
 Funbot.misc.ready = true;
 var announcementTick = 60 * 10;
 var lastAnnouncement = 0;
@@ -105,6 +105,10 @@ if (window.location.hostname === "plug.dj") {
 
     function woot() {
         $('#woot').click();
+        API.on(API.ADVANCE,callback);
+	function callback(obj){
+        $('#woot').click();
+	}
     };
 
     function UserJoin(user) {
