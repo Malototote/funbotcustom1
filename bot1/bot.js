@@ -262,7 +262,7 @@ if (window.location.hostname === "plug.dj") {
         });
     }, 3000);
 
-    API.sendChat('Olimpobot version ' + Funbot.misc.version + ' Activado!');
+    API.sendChat('Olimpobot version ' + Funbot.misc.version + ' por Malototote, Activado!');
 } else {
     alert("This bot can only function at http://plug.dj/community");
 };
