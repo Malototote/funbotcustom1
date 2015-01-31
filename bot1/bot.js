@@ -112,7 +112,7 @@ if (window.location.hostname === "plug.dj") {
     };
 
     function UserJoin(user) {
-        var JoinMsg = ["¡Bienvenido, @user!", "¡Bienvenido, @user!"];
+        var JoinMsg = ["¡Bienvenid@, @user!", "¡Bienvenido, @user!"];
         r = Math.floor(Math.random() * JoinMsg.length);
         API.sendChat(JoinMsg[r].replace("user", user.username));
     };
