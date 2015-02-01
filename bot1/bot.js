@@ -72,7 +72,15 @@ var blockedSongs = [
 "LA CANCIÓN DE WILLYREX (The Güilyreh Song)",
 "rap del dinero",
 "rata",
-"El Presidente (Prod. por Piter-G)"
+"El Presidente (Prod. por Piter-G)",
+"rap fail",
+"fail",
+"dinero",
+"Vejetta",
+"Bejetta",
+"info ideas",
+"hour",
+"hora"
 
 
 ];
@@ -82,7 +90,8 @@ var blockedArtists = [
 "Justin Bieber",
 "Eltrollino",
 "Psy",
-"Piter-G"
+"Piter-G",
+"info ideas",
 
 ];
 
