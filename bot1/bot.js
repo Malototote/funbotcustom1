@@ -71,7 +71,8 @@ var blockedSongs = [
 "vegetta",
 "LA CANCIÓN DE WILLYREX (The Güilyreh Song)",
 "rap del dinero",
-"rata"
+"rata",
+"El Presidente (Prod. por Piter-G)"
 
 
 ];
@@ -80,7 +81,9 @@ var blockedSongs = [
 var blockedArtists = [
 "Justin Bieber",
 "Eltrollino",
-"Psy"
+"Psy",
+"Piter-G"
+
 ];
 
 // Filter Keywords
