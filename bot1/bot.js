@@ -14,7 +14,7 @@ toSave = {};
 toSave.settings = Funbot.settings;
 toSave.moderators = Funbot.moderators;
 
-Funbot.misc.version = "1.1.6.1";
+Funbot.misc.version = "1.1.7";
 Funbot.misc.ready = true;
 var announcementTick = 60 * 10;
 var lastAnnouncement = 0;
@@ -80,7 +80,11 @@ var blockedSongs = [
 "Bejetta",
 "info ideas",
 "hour",
-"hora"
+"hora",
+"friki",
+"Lucas Skywalker - Soy friki",
+"Nicki Minaj - Anaconda",
+"Anaconda"
 
 
 ];
@@ -92,6 +96,8 @@ var blockedArtists = [
 "Psy",
 "Piter-G",
 "info ideas",
+"Lucas Skywalker"
+
 
 ];
 
