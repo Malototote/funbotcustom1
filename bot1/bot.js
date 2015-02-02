@@ -14,7 +14,7 @@ toSave = {};
 toSave.settings = Funbot.settings;
 toSave.moderators = Funbot.moderators;
 
-Funbot.misc.version = "1.1.7";
+Funbot.misc.version = "1.1.7.1";
 Funbot.misc.ready = true;
 var announcementTick = 60 * 10;
 var lastAnnouncement = 0;
@@ -102,7 +102,7 @@ var blockedArtists = [
 ];
 
 // Filter Keywords
-Funbot.filters.beggerWords = ["puto", "cabron", "verga", "pendejo", "puta", "pendeja", "polla", "mierda", "mames", "jodete", "merda", "fuck", "fak", "fuk", "mms", "pta", "chingada", "huevo" ];
+Funbot.filters.beggerWords = ["puto", "cabron", "verga", "pendejo", "puta", "pendeja", "polla", "mierda", "mames", "jodete", "merda", "fuck", "fak", "fuk", "mms", "pta", "chingada", "huevo", "poronga" ];
 Funbot.filters.commandWords = ['.command', '.commands', ".linkin", ".say", ".test", ".ping", ".marco", ".reward", ".add", ".addsong", ".flipcoin", ".catfact", ".dogfact", ".hug", ".8ball", ".fortune", ".songlink", ".download", ".help", ".whywoot", ".whymeh", ".props", ".votes", ".woot", ".meh", ".version", ".userstats @", ".mystats", ".source", ".roomstats", ".roomstats2", ".register", ".join", ".leave", ".roll"];
 
 
@@ -259,7 +259,7 @@ if (window.location.hostname === "plug.dj") {
         var fromID = data.uid,
 	        msg = data.message.toLowerCase(),
 	        chatID = data.cid,
-	        responses = ['@{beggar}, Decir groserias no esta permitido aqui, si reiteras quedaras baneado 1hr!',],
+	        responses = ['@{beggar}, Modera tu vocavulario, si reiteras quedaras baneado 1hr!',],
 	        randomInt = Math.floor(Math.random() * responses.length);
         if (msg.match(new RegExp(Funbot.filters.beggerWords.join('|'), 'gi')) && Funbot.settings.beggerFilter)
             return API.moderateDeleteChat(chatID),
